@@ -1,0 +1,53 @@
+#password-form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+    padding: 20px 50px 40px;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    font-family: sans-serif;
+  }
+  
+  #password-form * {
+      box-sizing: border-box;
+  }
+  
+  #password-form h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #password-form h4{
+  text-align: center;
+    
+  }
+  #password-form input {
+    margin-bottom: 15px;
+  }
+  
+  #password-form input[type=text] {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+  }
+  
+  #password-form label {
+    color: #777;
+    font-size: 0.8em;
+  }
+  #password-form button[type=submit] {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    
+      color: #fff;
+      background-image: linear-gradient(218deg,#2a6eb6 0,#1ca5dd 50%,#2a6eb6 100%);
+  }
