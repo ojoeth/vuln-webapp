@@ -8,7 +8,7 @@ for i in range(0,9):
     data.append([names[i], passwords[i], random.choice(['Active', 'Inactive'])])
 print(data)
 
-with con as sqlite3.connect("users.db"):
+with sqlite3.connect("users.db") as con:
     cur = con.cursor()
     cur.execute("CREATE TABLE users(name, password, active)")
     cur.executemany("INSERT INTO users VALUES(?, ?, ?)", data)
