@@ -19,3 +19,7 @@ def get_users():
     elif data == []:
         rtn = "Not found"
     return flask.render_template("users.html", active=str(rtn), statement=statement)
+
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
