@@ -14,3 +14,7 @@
 ## Usage:
 - Open the webapp in a browser 
 - In the username entry box, enter a simple SQL injection. Example: `' OR 1=1 OR 1='`
+
+## Screenshots:
+![Main page](images/main.png)
+![Page when exploited](images/injected.png)
